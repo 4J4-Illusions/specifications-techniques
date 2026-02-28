@@ -1,3 +1,10 @@
 .Couverture{
-    
+    height: 100vh;
+    background-color: grey;
+
+    .equipe{
+        span{
+            display: block;
+        }
+    }
 }

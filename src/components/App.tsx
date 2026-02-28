@@ -1,16 +1,16 @@
 import './App.css'
-import moduleData from '../data/modules.json'
-import Module from './Module';
+import Couverture from './Couverture'
+import ListeModules from './ListeModules'
+
+
 
 export default function App() {
-    console.log(moduleData);
 
+    
     return (
         <main className='App'>
-            <button onClick={print}></button>
-            {moduleData.map((mod, i) => (
-                <Module key={i} {...mod} />
-            ))}
+            <Couverture/>
+            <ListeModules/>
         </main>
     )
 }
