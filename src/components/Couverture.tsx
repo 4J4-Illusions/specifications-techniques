@@ -7,7 +7,7 @@ export default function Couverture(){
 
     return(
         <header className='Couverture'>
-            <section className='equipe'>
+            <section className='equipe sous-titre'>
                 <span>Sara Haimeur</span>
                 <span>Pharly Bazile</span>
                 <span>Clarence Ouimet</span>
@@ -19,12 +19,12 @@ export default function Couverture(){
 
             <img src={logo} className='logo' />
 
-            <section className='info-cours'>
+            <section className='info-cours sous-titre'>
                 <h2>Travail présenté à Martin St-Pierre</h2>
                 <h3>360-4J4 Création de jeu en équipe, groupe 2</h3>
             </section>
 
-            <section className='identification'>
+            <section className='identification sous-titre'>
                 <p>
                     Collège de Maisonneuve <br />
                     Technique d'intégration multimédia <br />

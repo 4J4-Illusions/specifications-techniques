@@ -8,7 +8,7 @@ export default function ListeDetails(){
 
 	return (
 		<div className='ListeDetails'>
-			<Detail/>
+			{[...Array(5)].map((_, i) => <Detail key={i}/>)}
 		</div>
 	)
 }

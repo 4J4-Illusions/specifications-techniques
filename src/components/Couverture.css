@@ -1,20 +1,38 @@
-.Couverture{
-    height: 100vh;
+.Couverture {
+  height: 100vh;
+  background-color: grey;
 
-    background-color: grey;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  text-align: center;
+  font-size: 1.75rem;
 
-    .equipe{
-        span{
-            display: block;
-        }
+  .equipe {
+    span {
+      /* display: block; */
+      margin: .25em;
     }
+  }
 
-    .logo{
-        /* clip-path: inset(35% 13%); */
+  .titre {
+    font-size: 3.5em;
+    margin: .5em 0;
+  }
+
+  .logo {
+    width: 600px;
+    margin: 2em 0;
+  }
+
+  .info-cours, .identification {
+    margin: 1em 0;
+
+    * {
+      margin: 0;
     }
+  }
 }
