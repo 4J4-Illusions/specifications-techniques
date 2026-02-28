@@ -1,10 +1,20 @@
 .Couverture{
     height: 100vh;
+
     background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
     .equipe{
         span{
             display: block;
         }
+    }
+
+    .logo{
+        /* clip-path: inset(35% 13%); */
     }
 }

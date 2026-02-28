@@ -1,4 +1,5 @@
 import './Couverture.css'
+import logo from '../assets/images/logo.png'
 
 
 
@@ -16,7 +17,7 @@ export default function Couverture(){
 
             <h1 className='titre'>Spécifications techniques</h1>
 
-            <img className='logo' />
+            <img src={logo} className='logo' />
 
             <section className='info-cours'>
                 <h2>Travail présenté à Martin St-Pierre</h2>
