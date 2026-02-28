@@ -1,0 +1,72 @@
+[
+  {
+    "module": "Modélisation des personnages",
+    "responsables": ["Prinnie", "Clarence"],
+    "sousModules": ["Joueur", "Antagoniste", "Foule", "Monstres"]
+  },
+  {
+    "module": "Contrôles du joueur",
+    "responsables": ["Pharly"],
+    "sousModules": ["Mouvements", "Interraction avec l'environnement"]
+  },
+  {
+    "module": "IA des PNJs",
+    "responsables": ["Pharly"],
+    "sousModules": ["Foule", "Monstres dans la forêt", "Antagoniste"]
+  },
+  {
+    "module": "Lumières",
+    "responsables": ["Sara", "Clarence"],
+    "sousModules": ["Couleurs", "Luminosité", "Qualité"]
+  },
+  {
+    "module": "UI/UX - Interfaces de jeu",
+    "responsables": ["Juba"],
+    "sousModules": ["Menu", "Pause", "Paramètres"]
+  },
+  {
+    "module": "UI/UX - HUD",
+    "responsables": ["Juba"],
+    "sousModules": ["Barre anxiété", "roulette de calibration"]
+  },
+  {
+    "module": "Musique",
+    "responsables": ["Sara"],
+    "sousModules": ["Trame sonore"]
+  },
+  {
+    "module": "VFX",
+    "responsables": ["Pharly"],
+    "sousModules": ["Stress", "Crises de panique", "Jumpscares"]
+  },
+  {
+    "module": "SFX",
+    "responsables": ["Sara"],
+    "sousModules": ["Stress", "Crises de panique", "Jumpscares"]
+  },
+  {
+    "module": "Game manager",
+    "responsables": ["Pharly"],
+    "sousModules": ["Gestion scènes", "Variables globales"]
+  },
+  {
+    "module": "Animations",
+    "responsables": ["Prinnie", "Clarence"],
+    "sousModules": ["Personnages", "Cinématiques"]
+  },
+  {
+    "module": "Cinématiques",
+    "responsables": ["Prinnie", "Clarence"],
+    "sousModules": ["Intro", "Outro", "Séquence entre les scènes"]
+  },
+  {
+    "module": "Environnement",
+    "responsables": ["Prinnie", "Clarence"],
+    "sousModules": ["Objets"]
+  },
+  {
+    "module": "Design des niveaux",
+    "responsables": ["Juba"],
+    "sousModules": ["Structure des scènes"]
+  }
+]

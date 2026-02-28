@@ -1,0 +1,33 @@
+.Module {
+  width: 69vw;
+  margin: 10vh auto;
+
+  thead {
+    tr {
+      background-color: crimson;
+      color: white;
+
+      th:first-child{
+        width: 30%;
+      }
+    }
+  }
+
+  th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  td {
+    padding: 5px;
+    padding-left: 10px;
+  }
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
