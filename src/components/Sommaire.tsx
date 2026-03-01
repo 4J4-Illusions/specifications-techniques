@@ -2,18 +2,20 @@ import './Sommaire.css'
 
 
 
-export default function Sommaire(){
+export default function Sommaire() {
 
 
 	return (
 		<nav className='Sommaire'>
-			<h1>Sommaire</h1>
+			<h1 className='sous-titre'>Sommaire</h1>
 
-			<a href="">Description technique du jeu</a>
-			<a href="">Description des niveaux</a>
-			<a href="">Organigramme des quêtes</a>
-			<a href="">Description de l'identité graphique</a>
-			<a href="">Liste de modules programmables</a>
+			<div className='parag'>
+				<a href="#technique">Description technique du jeu</a>
+				<a href="#niveaux">Description des niveaux</a>
+				<a href="#organigramme">Organigramme des quêtes</a>
+				<a href="#identite">Description de l'identité graphique</a>
+				<a href="#modules">Liste de modules programmables</a>
+			</div>
 		</nav>
 	)
 }

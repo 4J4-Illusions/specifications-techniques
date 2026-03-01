@@ -1,14 +1,6 @@
 /* :root {
 } */
 
-/* *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 @font-face {
   font-family: "Unfinished Scream";
   src: url("/unfinished_scream/WOFF/UnfinishedScreamRegular.woff")
@@ -24,6 +16,19 @@
   font-family: "JMH Typewriter";
   src: url("/jmh_typewriter/JMH Typewriter.otf") format("opentype");
   font-weight: normal;
+}
+
+
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html{
+  scroll-behavior: smooth;
 }
 
 .titre {
