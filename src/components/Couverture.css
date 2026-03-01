@@ -5,11 +5,13 @@
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
-  justify-content: center;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  /* justify-content: center; */
   align-items: center;
 
   text-align: center;
-  font-size: 1.75rem;
+  /* font-size: 1.75rem; */
 
   .equipe {
     span {
@@ -20,16 +22,17 @@
 
   .titre {
     font-size: 3.5em;
-    margin: .5em 0;
+    /* margin: .5em 0; */
+    margin: 0;
   }
 
   .logo {
     width: 600px;
-    margin: 2em 0;
+    /* margin: 2em 0; */
   }
 
   .info-cours, .identification {
-    margin: 1em 0;
+    /* margin: 1em 0; */
 
     * {
       margin: 0;

@@ -1,15 +1,43 @@
+import type { JSX } from 'react/jsx-runtime';
 import './Module.css'
 
 
 
 export default function Module(props: IModuleProgrammable) {
     // console.log(props);
-    // if(props.description){
-    //     console.log(props);
-    //     console.log(props.description);
-    //     // props.description.map(el => console.log(el));
-    //     props.description.forEach(el => el.map(el2 => console.log(el2)));
-    // }
+    const specs: JSX.Element[] = [];
+    props.sousModules.map((mod, i) => specs.push(
+        <section key={i}>
+            <h3>{mod}</h3>
+            {props.description?.[i].map((desc, i) => (
+                <ul key={i}>
+                    {/* {typeof (desc) !== "string" && (
+                        <li className="detail">{(desc as INestedModuleList).main}</li>
+                    )} */}
+                    {processLiDepth(desc)}
+                </ul>
+            ))}
+        </section>
+    ));
+    // console.log(specs);
+
+
+    function processLiDepth(elem: (string | INestedModuleList), key: (string | number) = 0) {
+        let output;
+        if (typeof (elem) === "string") {
+            output = <li key={key} className='detail'>{elem as string}</li>
+        } else {
+            output =
+                <>
+                    <li className='detail'>{elem.main}</li>
+                    <ul>
+                        {elem.subMod.map((m, i) => processLiDepth(m, i))}
+                    </ul>
+                </>;
+        }
+        return output
+    }
+
 
     return (
         <table className='Module parag'>
@@ -29,7 +57,7 @@ export default function Module(props: IModuleProgrammable) {
                     <th>Spécifications</th>
                     <td>
                         <div className="sous-module">
-                            {props.sousModules.map((sMod, iMod) => (
+                            {/* {props.sousModules.map((sMod, iMod) => (
                                 <section key={iMod}>
                                     <h3>{sMod}</h3>
                                     {props.description?.[iMod].map((desc, iDesc) => (
@@ -46,19 +74,21 @@ export default function Module(props: IModuleProgrammable) {
                                             )}
                                         </ul>
                                     ))}
-
-                                    {/* <ul>
-                                        <li className="detail">Liste détails</li>
-                                        <ul>
-                                            <li className="sous-detail">Liste sous-détails</li>
-                                        </ul>
-                                    </ul> */}
                                 </section>
-                            ))}
+                            ))} */}
+                            {specs}
                         </div>
                     </td>
                 </tr>
             </tbody>
+            {/* 
+            <ul>
+                <li className="detail">Liste détails</li>
+                <ul>
+                    <li className="sous-detail">Liste sous-détails</li>
+                </ul>
+            </ul>
+            */}
         </table>
     )
 }

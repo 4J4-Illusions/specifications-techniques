@@ -1,21 +1,40 @@
 /* :root {
 } */
 
+
 @font-face {
   font-family: "Unfinished Scream";
-  src: url("/unfinished_scream/WOFF/UnfinishedScreamRegular.woff")
+  src: url("/fonts/unfinished_scream/WOFF/UnfinishedScreamRegular.woff")
     format("woff");
 }
-
 @font-face {
   font-family: "Punk Typewriter";
-  src: url("/punk_typewriter/Punk Typewriter.otf") format("opentype");
+  src: url("/fonts/punk_typewriter/Punk Typewriter.otf") format("opentype");
 }
-
 @font-face {
   font-family: "JMH Typewriter";
-  src: url("/jmh_typewriter/JMH Typewriter.otf") format("opentype");
+  src: url("/fonts/jmh_typewriter/JMH Typewriter.otf") format("opentype");
   font-weight: normal;
+}
+@font-face {
+  font-family: "Sancreek";
+  src: url("/fonts/Sancreek/Sancreek-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT Serif";
+  src: url("/fonts/PT_Serif/PTSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype") tech("variations");
+  src: url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype-variations");
+  src: url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype supports variations");
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: "Compacta";
+  src: url("/fonts/compacta/unicode.compacta.ttf") format("truetype");
 }
 
 
@@ -32,13 +51,18 @@ html{
 }
 
 .titre {
-  font-family: "Unfinished Scream", Papyrus, fantasy;
+  /* font-family: "Unfinished Scream", Papyrus, fantasy; */
+  font-family: "Sancreek", Papyrus, fantasy;
 }
 
 .sous-titre {
-  font-family: "Punk Typewriter", Georgia, serif;
+  /* font-family: "Punk Typewriter", Georgia, serif; */
+  font-family: "Compacta", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 
 .parag {
   font-family: "JMH Typewriter", serif;
+  /* font-family: "PT Serif", "Playfair Display", serif; */
 }

@@ -1,0 +1,101 @@
+
+UI/UX – Interfaces de jeu
+Responsable : Juba
+Sous section : Menu
+Specifications : 
+-	Options du menu
+	o    Jouer
+	o    Paramètres
+	o    Crédits
+	o    Quitter
+-	Arrière plan
+	o    Salle de théâtre représentant la scène principale ou se trouve l’antagoniste
+-	Éclairage
+	o    Sombre dans le but de rester dans la thématique du jeu
+		
+Sous section : Paramètres
+Specifications : 
+-	Options du menu pause 
+    o    Continuer
+    o    Commandes	
+			Liste des commandes du jeu.
+    o    Audio
+			Jeu
+			Général 
+			Musique
+    o    Langue
+    o    Crédits 
+    o    Quitter
+-	Arrière plan
+    o    Flou du jeu pour garder l’immersion du joueur intact lorsque ce dernier reviens au jeu
+-	Premier plan
+    o    Vision du dessus d’un chapiteau de cirque pour avoir un menu circulaire
+    o    Les options sont dans un carré ayant la forme d’un tiquet de spectacle
+
+
+UI/UX – HUD
+Responsable : Juba
+Sous section : Barre d’anxiété
+Specifications : 
+-	Style :
+    o    Style dessiné à la main.
+    o    Compatible avec la direction artistique générale du projet.
+-	Choix stylistiques
+    o    Barre d’anxiété qui tremble de plus en plus à fur et à mesure qu’elle se remplis.
+    o    Présence d’un cœur pour représenter l’anxiété.
+
+Sous section : Roulette de calibration
+Specifications : 
+-	Style
+    o    Dessiné à la main.
+    o    Forme de bobine de film.
+    o    Barre rouge représentant le moment où l’utilisateur doit cliquer pour réussir la calibration.
+-	Mécanique
+    o    La bobine tourne sans cesse à vitesse modérée le joueur doit cliquer sur la touche ‘’E’’ lorsque la barre passe par-dessus la zone rouge.
+
+
+Design de niveaux
+Responsable : Juba
+Sous section : Design des niveaux
+Specifications : 
+-	Niveau 1
+	-Peur
+		Peur de la foule (Ochlophobie)
+	- Univers
+		Le personnage se voit transporté dans un espace désertique dans lequel se trouve un bazar, il y’a plusieurs bâtiments arrangés en forme circulaire avec plusieurs kiosques.
+	-Objectifs
+		Le joueur doit trouver 5 pièces de papier qui lui donnerons des indices dans le but de trouver une personne spécifique le niveau termine lorsque le joueur trouve la personne en question.
+	-Obstacles
+		Une foule empêche le personnage de se déplacer librement, le fait d’être dans la foule trop longtemps fait augmenter la barre d’anxiété si cette barre d’anxiété est remplie, le niveau recommence
+	-Récompense
+		À la fin du niveau le joueur se verra donner un briquet pour compléter le prochain niveau.
+	
+-	Niveau 2
+	-Peur
+		Peur du noir (Nyctophobie)	
+	-Univers
+		Le joueur se retrouve dans une forêt sombre plusieurs arbres sont présents pour lui bloquer son chemin et plusieurs chemins s’y retrouvent la fôret est construite dans un style de labyrinthe.
+	-Objectifs
+		Dans cette forêt il y existe 5 zones avec des lumières éteintes le joueur doit allumer ces 5 lumières dans un ordre précis dans le but d’atteindre la zone finale où ce dernier pourra allumer un certain arbre ce qui illumineras la forêt dans son entièreté. Pour se retrouver dans le noir le joueur pourra faire du bruit ce qui créera une onde autour de lui qui révèleras son entourage.
+	-Obstacles	
+		Des monstres de la forêt seront présents et roderons si le joueur fait trop de bruit, les monstres seront attirés vers lui si ces monstres attaquent le joueur ce dernier fera une crise d’angoisse et le niveau recommenceras.
+	-Récompense
+		À la fin du niveau le joueur reçoit une clé à molette ce qui l’aideras dans le niveau 3.
+
+-	Niveau 3
+	-Peur
+		Peur de devenir fou (Psycopathophobie)
+	-Univers
+		Le joueur se voit de retour dans le théâtre du début du jeu, cette fois-ci le théâtre entier est à la disposition du joueur.
+	-Objectifs	
+		Le joueur doit survivre un temps imparti, le joueur a la capacité de faire diminuer ce temps imparti en faisant des calibrations de caméras projecteurs de cinéma si ce dernier rate une calibration, le temps imparti augmente.
+	-Obstacles	
+		L’antagoniste Alaric ayant pris une forme monstrueuse suit le joueur dans la carte et essaye d’attraper ce dernier, avec ses pouvoirs de télékinésie, il fait voir et entendre au joueur des hallucinations.
+	-Récompense
+		Fin du jeu.
+
+
+
+
+
+
