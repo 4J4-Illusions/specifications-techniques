@@ -1,27 +1,15 @@
 import Detail from './Detail'
 import './ListeDetails.css'
+import detailData from '../data/details.json'
 
 
 
 export default function ListeDetails(){
-	const titres = [
-		"Description technique du jeu",
-		"Description des niveaux",
-		"Organigramme des quêtes",
-		"Description de l'identité graphique",
-		"Liste de modules programmables",
-	];
-	const ids = [
-		"technique",
-		"niveaux",
-		"organigramme",
-		"identite",
-		"modules",
-	];
+
 
 	return (
 		<div className='ListeDetails'>
-			{[...Array(5)].map((_, i) => <Detail key={i} titre={titres[i]} id={ids[i]}/>)}
+			{detailData.map((data, i) => <Detail key={i} {...data}/>)}
 		</div>
 	)
 }

@@ -21,7 +21,7 @@ Specifications :
 			Liste des commandes du jeu.
     o    Audio
 			Jeu
-			Général 
+			Général
 			Musique
     o    Langue
     o    Crédits 

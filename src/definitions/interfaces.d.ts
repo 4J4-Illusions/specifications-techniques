@@ -14,5 +14,5 @@ interface INestedModuleList{
 interface IPropDetail{
     id: string,
     titre: string,
-    // detail: string
+    contenu?: string
 }

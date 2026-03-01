@@ -1,0 +1,32 @@
+[
+    {
+        "id": "technique",
+        "titre": "Description technique du jeu",
+        "contenu": ""
+    },
+    {
+        "id": "niveaux",
+        "titre": "Description des niveaux",
+        "contenu": ""
+    },
+    {
+        "id": "organigramme",
+        "titre": "Organigramme des quêtes",
+        "contenu": ""
+    },
+    {
+        "id": "son",
+        "titre": "Le son",
+        "contenu": "Le son joue un rôle important dans notre jeu puisqu’il aide à créer une ambiance sombre et immersive. La musique, les effets sonores et les dialogues renforcent les émotions du joueur, comme le stress et la peur. Par exemple, des battements de cœur, des rires lointains ou une voix avec distorsion numérique du maître du jeu seront utilisés pour accentuer la tension et rendre les différentes épreuves plus intenses."
+    },
+    {
+        "id": "lumiere",
+        "titre": "Les lumières",
+        "contenu": "La lumière joue un rôle important dans notre jeu puisqu’elle aide à créer une ambiance sombre et immersive. Elle permet de représenter l’état émotionnel du personnage et d’augmenter la tension pendant les épreuves. Par exemple, des lumières froides au début du jeu, des projecteurs intenses dirigés vers le joueur ou des clignotements pendant les moments de stress seront utilisés pour rendre l’expérience plus intense."
+    },
+    {
+        "id": "modules",
+        "titre": "Liste de modules programmables",
+        "contenu": ""
+    }
+]

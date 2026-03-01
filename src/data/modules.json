@@ -10,6 +10,39 @@
       "Antagoniste",
       "Foule",
       "Monstres"
+    ],
+    "description": [
+      [
+        "Modélisation : Maya",
+        "Textures : Substance Painter 3D"
+      ],
+      [
+        {
+          "main": "Forme 1 (introduction) :",
+          "subMod": [
+            "Modélisation : Maya",
+            "Textures : Substance Painter 3D"
+          ]
+        },
+        {
+          "main": "Forme 2 (niveau 3) :",
+          "subMod": [
+            "Design du personnage",
+            "Modélisation : Maya",
+            "Textures : Substance Painter 3D"
+          ]
+        }
+      ],
+      [
+        "Design du personnage",
+        "Modélisation : Maya",
+        "Textures : Substance Painter 3D"
+      ],
+      [
+        "Design du personnage",
+        "Modélisation : Maya",
+        "Textures : Substance Painter 3D"
+      ]
     ]
   },
   {
@@ -20,6 +53,44 @@
     "sousModules": [
       "Mouvements",
       "Interraction avec l'environnement"
+    ],
+    "description": [
+      [
+        "Marche",
+        "Course",
+        "Saut",
+        {
+          "main": "Vue en première personne",
+          "subMod": [
+            "Contrôle de la caméra vec la souris"
+          ]
+        },
+        "Touche pour intéragir avec l'environnement"
+      ],
+      [
+        "Même touche, mais lance une action différente selon le niveau et le contexte",
+        {
+          "main": "Niveau 1 :",
+          "subMod": [
+            "Ramasser un morceau de papier",
+            "Parler avec une personne dans la foule"
+          ]
+        },
+        {
+          "main": "Niveau 2 :",
+          "subMod": [
+            "Créer une onde sonore",
+            "Allumer un lampadaire"
+          ]
+        },
+        {
+          "main": "Niveau 3 :",
+          "subMod": [
+            "Commencer une action de calibration",
+            "Arrêter la roulette de l'actin de calibration"
+          ]
+        }
+      ]
     ]
   },
   {
@@ -31,6 +102,30 @@
       "Foule",
       "Monstres dans la forêt",
       "Antagoniste"
+    ],
+    "description": [
+      [
+        "Utilisation du NavMesh",
+        "Chemins prédéterminés",
+        {
+          "main": "Directions plus aléatoires (optionnel)",
+          "subMod": [
+            "Vers des point prédéterminés sur la map",
+            "Suivant une certaine direction"
+          ]
+        }
+      ],
+      [
+        "Mouvement lent",
+        "Détection et direction vers la dernière onde sonore",
+        "Boost de vitesse temporaire suite à l'utilisation d'une onde sonore"
+      ],
+      [
+        "Utilisation du NavMesh",
+        "Suit constamment le joueur",
+        "Fait apparaître un faux objet sur la map à intervalle fixe",
+        "Fait jouer un faux son sur la map à intervalle fixe"
+      ]
     ]
   },
   {
@@ -44,6 +139,40 @@
       "Couleurs",
       "Luminosité",
       "Technique"
+    ],
+    "description": [
+      [
+        "Le jeu commence avec une ambiance sombre et froide.",
+        "Les couleurs sont peu saturées au début.",
+        "Plus le joueur avance dans le jeu, plus la luminosité diminue et les couleurs se ternis.",
+        "Les lumières représentent l'état émotionnel du personnage."
+      ],
+      [
+        "Acte 1 : gris, bleu froid, ambiance triste.",
+        "Niveau de la foule : lumières jaunes et orangées pour créer de la pression.",
+        "Niveau du noir : lumière très faible, ambiance bleutée.",
+        "Niveau de la folie : changements rapides de lumière (effet instable).",
+        "Climax : mélange de lumière chaude et froide."
+      ],
+      [
+        "La lumière diminue lorsque l'anxiété du joueur augmente.",
+        "Effet de vignette rouge lors d'une crise de panique.",
+        "Effet de clignotement léger pendant les moments stressants.",
+        "Projecteur principal sur le joueur dans certaines scènes."
+      ],
+      [
+        "Utilisation de lumières fixes (Baked) pour les environnements.",
+        "Lumières dynamiques pour les projecteurs du cirque.",
+        "Ombres activées pour créer du contraste.",
+        {
+          "main": "Effets visuels ajoutés :",
+          "subMod": [
+            "Léger flou",
+            "Bloom sur les projecteurs",
+            "Légère distorsion pendant les hallucinations avec un filtre noir et blanc"
+          ]
+        }
+      ]
     ]
   },
   {
@@ -52,9 +181,73 @@
       "Juba"
     ],
     "sousModules": [
-      "Menu",
-      "Pause",
+      "Menu d'accueil",
+      "Menu pause",
       "Paramètres"
+    ],
+    "description": [
+      [
+        {
+          "main": "Options du menu :",
+          "subMod": [
+            "Jouer",
+            "Paramètres",
+            "Crédits",
+            "Quitter"
+          ]
+        },
+        {
+          "main": "Arrière plan :",
+          "subMod": [
+            "Salle de théâtre représentant la scène principale ou se trouve l'antagoniste"
+          ]
+        },
+        {
+          "main": "Éclairage :",
+          "subMod": [
+            "Sombre dans le but de rester dans la thématique du jeu"
+          ]
+        }
+      ],
+      [],
+      [
+        {
+          "main": "Options du menu pause :",
+          "subMod": [
+            "Continuer",
+            {
+              "main": "Commandes :",
+              "subMod": [
+                "Liste des commandes du jeu"
+              ]
+            },
+            {
+              "main": "Audio :",
+              "subMod": [
+                "Jeu",
+                "Général",
+                "Musique"
+              ]
+            },
+            "Langue",
+            "Crédits",
+            "Quitter"
+          ]
+        },
+        {
+          "main": "Arrière plan :",
+          "subMod": [
+            "Flou du jeu pour garder l'immersion du joueur intact lorsque ce dernier reviens au jeu"
+          ]
+        },
+        {
+          "main": "Premier plan :",
+          "subMod": [
+            "Vision du dessus d'un chapiteau de cirque pour avoir un menu circulaire",
+            "Les options sont dans un carré ayant la forme d'un tiquet de spectacle"
+          ]
+        }
+      ]
     ]
   },
   {
@@ -63,8 +256,42 @@
       "Juba"
     ],
     "sousModules": [
-      "Barre anxiété",
+      "Barre d'anxiété",
       "roulette de calibration"
+    ],
+    "description": [
+      [
+        {
+          "main": "Style :",
+          "subMod": [
+            "Style dessiné à la main",
+            "Compatible avec la direction artistique générale du projet"
+          ]
+        },
+        {
+          "main": "Choix stylistiques :",
+          "subMod": [
+            "Barre d'anxiété qui tremble de plus en plus à fur et à mesure qu'elle se remplis",
+            "Présence d'un cœur pour représenter l'anxiété"
+          ]
+        }
+      ],
+      [
+        {
+          "main": "Style :",
+          "subMod": [
+            "Dessiné à la main",
+            "Forme de bobine de film",
+            "Barre rouge représentant le moment où l'utilisateur doit cliquer pour réussir la calibration"
+          ]
+        },
+        {
+          "main": "Mécanique :",
+          "subMod": [
+            "La bobine tourne sans cesse à vitesse modérée le joueur doit cliquer sur la touche 'E' lorsque la barre passe par-dessus la zone rouge"
+          ]
+        }
+      ]
     ]
   },
   {
@@ -113,6 +340,22 @@
       "Stress",
       "Crises de panique",
       "Jumpscares"
+    ],
+    "description": [
+      [
+        "Effet de vignette graduel",
+        "Effet de flou",
+        "Effet de tremblement"
+      ],
+      [
+        "Effet de vignette accentuée",
+        "Filtres visuels (optionnel)",
+        "Distorsions"
+      ],
+      [
+        "Effet de tremblement",
+        "Distorsions"
+      ]
     ]
   },
   {
@@ -178,8 +421,21 @@
       "Pharly"
     ],
     "sousModules": [
-      "Gestion scènes",
+      "Gestion des scènes",
       "Variables globales"
+    ],
+    "description": [
+      [
+        {
+          "main": "Chargement des scènes",
+          "subMod": [
+            "De manière additive ou non"
+          ]
+        }
+      ],
+      [
+        "Gestion des variables utilisées globalement"
+      ]
     ]
   },
   {
@@ -191,18 +447,90 @@
     "sousModules": [
       "Personnages",
       "Cinématiques"
+    ],
+    "description": [
+      [
+        {
+          "main": "Joueur :",
+          "subMod": [
+            "Animation des mains",
+            "Animation de ramassage",
+            "Animation d'activation de briquet",
+            "Animation de clé à molette",
+            "Animation de crise de panique"
+          ]
+        },
+        {
+          "main": "Antagoniste - Forme 1 (introduction) :",
+          "subMod": [
+            "Animation de marche"
+          ]
+        },
+        {
+          "main": "Antagoniste - Forme 2 (niveau 3) :",
+          "subMod": [
+            "Animation de marche",
+            "Animation de course",
+            "Animation de jumpscare"
+          ]
+        },
+        {
+          "main": "Foule :",
+          "subMod": [
+            "Animation de marche",
+            "Animation de regard"
+          ]
+        },
+        {
+          "main": "Monstres :",
+          "subMod": [
+            "Animation de marche",
+            "Animation de course",
+            "Animation de jumpscare"
+          ]
+        }
+      ],
+      []
     ]
   },
   {
     "module": "Cinématiques",
     "responsables": [
-      "Prinnie",
-      "Clarence"
+      "Prinnie (dessin)",
+      "Clarence (montage)"
     ],
     "sousModules": [
-      "Intro",
-      "Outro",
-      "Séquence entre les scènes"
+      "Dessin",
+      "Montage"
+    ],
+    "description": [
+      [
+        {
+          "main": "Intro",
+          "subMod": [
+            "Flashback du personnage",
+            "Images de l'antagoniste pendant les dialogues",
+            "Utiliser Adobe After Effects pour le montage"
+          ]
+        },
+        {
+          "main": "Outro",
+          "subMod": [
+            "Cinématique qui explique l'histoire de l'antagoniste et pourquoi il agit de cette manière"
+          ]
+        },
+        {
+          "main": "Séquences entre les scènes",
+          "subMod": [
+            "Image du personnage qui tombe dans les niveaux",
+            "Cinématiques qui expliquent un peu la cause des phobies du personnage"
+          ]
+        }
+      ],
+      [
+        "Créer des cinématiques et effectuer des montages vidéo",
+        "Utiliser Adobe After Effects"
+      ]
     ]
   },
   {
@@ -213,6 +541,32 @@
     ],
     "sousModules": [
       "Objets"
+    ],
+    "description": [
+      [
+        {
+          "main": "Modélisation : Maya",
+          "subMod": [
+            "Modélisation des papiers d'indice",
+            "Modélisation du briquet",
+            "Modélisation des lampadaires",
+            "Modélisation de l'arbre magique",
+            "Modélisation de la clé à molette",
+            "Modélisation des machines de calibration"
+          ]
+        },
+        {
+          "main": "Textures : Substance Painter 3D",
+          "subMod": [
+            "Texturage des papiers d'indice",
+            "Texturage du briquet",
+            "Texturage des lampadaires",
+            "Texturage de l'arbre magique",
+            "Texturage de la clé à molette",
+            "Texturage des machines de calibration"
+          ]
+        }
+      ]
     ]
   },
   {
@@ -222,6 +576,87 @@
     ],
     "sousModules": [
       "Structure des scènes"
+    ],
+    "description": [
+      [
+        {
+          "main": "Niveau 1 - Peur de la foule (Ochlophobie)",
+          "subMod": [
+            "Univers : Le personnage se voit transporté dans un espace désertique dans lequel se trouve un bazar, il y'a plusieurs bâtiments arrangés en forme circulaire avec plusieurs kiosques",
+            "Objectifs : Le joueur doit trouver 5 pièces de papier qui lui donnerons des indices dans le but de trouver une personne spécifique. Le niveau termine lorsque le joueur trouve la personne en question",
+            "Obstacles : Une foule empêche le personnage de se déplacer librement. Le fait d'être dans la foule trop longtemps fait augmenter la barre d'anxiété. Si cette barre d'anxiété est remplie, le niveau recommence",
+            "Récompense : À la fin du niveau le joueur se verra donner un briquet pour compléter le prochain niveau"
+          ]
+        },
+        {
+          "main": "Niveau 2 - Peur du noir (Nyctophobie)",
+          "subMod": [
+            "Univers : Le joueur se retrouve dans une forêt sombre. Plusieurs arbres sont présents pour lui bloquer son chemin et plusieurs chemins s'y retrouvent. La fôret est construite dans un style de labyrinthe",
+            "Objectifs : Dans cette forêt il existe 5 zones avec des lumières éteintes. Le joueur doit allumer ces 5 lumières dans un ordre précis dans le but d'atteindre la zone finale où ce dernier pourra allumer un certain arbre ce qui illumineras la forêt dans son entièreté. Pour se retrouver dans le noir le joueur pourra faire du bruit ce qui créera une onde autour de lui qui révèleras son entourage",
+            "Obstacles : Des monstres de la forêt seront présents et roderons. Si le joueur fait trop de bruit, les monstres seront attirés vers lui. Si ces monstres attaquent le joueur, ce dernier fera une crise d'angoisse et le niveau recommenceras",
+            "Récompense : À la fin du niveau le joueur reçoit une clé à molette ce qui l'aideras dans le niveau 3"
+          ]
+        },
+        {
+          "main": "Niveau 3 - Peur de devenir fou (Psycopathophobie)",
+          "subMod": [
+            "Univers : Le joueur se voit de retour dans le théâtre du début du jeu, cette fois-ci le théâtre entier est à la disposition du joueur",
+            "Objectifs : Le joueur doit survivre un temps imparti. Le joueur a la capacité de faire diminuer ce temps imparti en faisant des calibrations de caméras projecteurs de cinéma. Si ce dernier rate une calibration, le temps imparti augmente",
+            "Obstacles : L'antagoniste Alaric ayant pris une forme monstrueuse suit le joueur dans la carte et essaye d'attraper ce dernier. Avec ses pouvoirs de télékinésie, il fait voir et entendre au joueur des hallucinations",
+            "Récompense : Fin du jeu"
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "module": "Dialogues",
+    "responsables": [
+      "Prinnie"
+    ],
+    "sousModules": [
+      "Création du système de dialogue"
+    ],
+    "description": [
+      [
+        "Rédaction des textes",
+        "Affichage des textes en typewriter",
+        "Déterminer quand les dialogues auront lieu dans le jeu"
+      ]
+    ]
+  },
+  {
+    "module": "Particules",
+    "responsables": [
+      "Pharly"
+    ],
+    "sousModules": [
+      "Particule System"
+    ],
+    "description": [
+      [
+        {
+          "main": "Désert :",
+          "subMod": [
+            "Effets de sable"
+          ]
+        },
+        {
+          "main": "Forêt :",
+          "subMod": [
+            "Effets de lumières des arbres magiques",
+            "Effets de lumières des lampadaires"
+          ]
+        },
+        {
+          "main": "Cirque :",
+          "subMod": [
+            "Effets de lumières des spotlights",
+            "Flicker des lumières",
+            "Effets d'étincelles des machines de calibration"
+          ]
+        }
+      ]
     ]
   }
 ]
