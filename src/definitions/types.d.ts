@@ -1,0 +1,2 @@
+
+type ModuleDescription = (string | INestedModuleList)[][];

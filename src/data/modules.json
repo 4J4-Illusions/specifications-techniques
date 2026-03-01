@@ -32,7 +32,29 @@
   {
     "module": "Musique",
     "responsables": ["Sara"],
-    "sousModules": ["Trame sonore"]
+    "sousModules": ["Trame sonore", "Adaptation", "Technique"],
+    "description": [
+      [
+        "Musique différente selon le niveau.",
+        "Musique calme pendant l’exploration.",
+        "Musique stressante pendant les épreuves, musique intense pendant le climax.",
+        "Le thème principal du jeu revient plusieurs fois."
+      ],
+      [
+        "La musique devient plus rapide quand l’anxiété augmente.",
+        "Transition fluide entre musique calme et musique stressante.",
+        "Le volume augmente pendant les moments importants."
+      ],
+      [
+        "Utilisation du Audio Mixer dans Unity.",
+        "Utilisation d'Adobe Auditions pour la création des sons",
+        "Transition progressive entre les musiques.",
+        {
+          "main": "Contrôle du volume séparé pour :",
+          "subMod": ["Musique", "Effets sonores", "Volume global"]
+        }
+      ]
+    ]
   },
   {
     "module": "VFX",
@@ -42,7 +64,49 @@
   {
     "module": "SFX",
     "responsables": ["Sara"],
-    "sousModules": ["Stress", "Crises de panique", "Jumpscares"]
+    "sousModules": ["Sons de stress", "Crises de panique", "Jumpscares", "Sons environnement", "Interface", "Dialogue et voix", "Voix du maître du jeu au dernier niveau (effet glitch)"],
+    "description": [
+      [
+        "Battements de cœur qui accélèrent.",
+        "Respiration lourde.",
+        "Sons ambiants plus forts lorsque l'anxiété augmente."
+      ],
+      [
+        "Battements de cœur très rapides.",
+        "Son aigu léger dans les oreilles.",
+        "Sons extérieurs deviennent plus étouffés.",
+        "Légère distorsion du son général."
+      ],
+      [
+        "Son fort et rapide.",
+        "Bruit soudain synchronisé avec l'image.",
+        "Son en 3D pour donner l'impression que ça vient d'un endroit précis."
+      ],
+      [
+        "Rires lointains.",
+        "Bruits de pas dans le cirque vide ou dans la forêt.",
+        "Bois qui craque.",
+        "Murmures faibles."
+      ],
+      [
+        "Petit son quand l'anxiété augmente.",
+        "Son quand une épreuve est réussie.",
+        "Son lors du passage à un autre acte.",
+        "Son pour changer de bouton.",
+        "Son pour cliquer sur un bouton."
+      ],
+      [
+        "Dialogue entre le personnage principal et le maître du jeu.",
+        "Sous-titres affichés à l'écran.",
+        "Le joueur ne peut pas bouger pendant les dialogues importants."
+      ],
+      [
+        "Voix modifiée pour paraître instable et étrange.",
+        "Variation de hauteur de voix (pitch léger).",
+        "Petit effet de coupure ou bug dans certaines phrases.",
+        "Bruits électroniques courts entre certains mots."
+      ]
+    ]
   },
   {
     "module": "Game manager",
