@@ -14,6 +14,5 @@ interface INestedModuleList{
 interface IPropDetail{
     id: string,
     titre: string,
-    contenu?: string,
-    // autres?: JSX.Element
+    contenu?: string[],
 }

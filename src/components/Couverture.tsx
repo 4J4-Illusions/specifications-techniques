@@ -1,35 +1,37 @@
 import './Couverture.css'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/better-logo.png'
 
 
 
-export default function Couverture(){
+export default function Couverture() {
 
-    return(
+    return (
         <header className='Couverture'>
-            <section className='equipe sous-titre'>
-                <span>Sara Haimeur</span>
-                <span>Pharly Bazile</span>
-                <span>Clarence Ouimet</span>
-                <span>Juba Ameziane</span>
-                <span>Prinnie Ly</span>
+            <section className='equipe parag-pt'>
+                <h2>
+                    Sara Haimeur,
+                    Pharly Bazile,
+                    Clarence Ouimet,
+                    Juba Ameziane,
+                    Prinnie Ly
+                </h2>
             </section>
 
             <h1 className='titre'>Spécifications techniques</h1>
 
             <img src={logo} className='logo' />
 
-            <section className='info-cours sous-titre'>
+            <section className='info-cours parag-pt'>
                 <h2>Travail présenté à Martin St-Pierre</h2>
-                <h3>360-4J4 Création de jeu en équipe, groupe 2</h3>
+                <h2>360-4J4 Création de jeu en équipe - gr.02</h2>
             </section>
 
-            <section className='identification sous-titre'>
-                <p>
+            <section className='identification parag-pt'>
+                <h2>
                     Collège de Maisonneuve <br />
                     Technique d'intégration multimédia <br />
                     23 février 2026
-                </p>
+                </h2>
             </section>
         </header>
     )

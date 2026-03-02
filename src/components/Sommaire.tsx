@@ -8,11 +8,11 @@ export default function Sommaire() {
 
 	return (
 		<nav className='Sommaire'>
-			<h1 className='sous-titre'>Sommaire</h1>
+			<h1 className='titre'>Table des matières</h1>
 
-			<div className='parag'>
+			<div className='parag-play'>
 				{detailData.map((data, i) => (
-					<a key={i} href={`#${data.id}`}>{data.titre}</a>
+					<a key={i} href={`#${data.id}`} style={{ gridArea: data.id }}>{data.titre}</a>
 				))}
 				{/* <a href="#technique">Description technique du jeu</a>
 				<a href="#niveaux">Description des niveaux</a>

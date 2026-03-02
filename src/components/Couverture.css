@@ -1,33 +1,34 @@
 .Couverture {
+  width: 100vw;
   height: 100vh;
-  background-color: grey;
+  /* background-color: grey; */
+  background-image: url('/src/assets/images/bg-couverture.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
   /* justify-content: space-evenly; */
-  justify-content: space-between;
-  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
+  gap: 5vh;
 
   text-align: center;
-  /* font-size: 1.75rem; */
-
-  .equipe {
-    span {
-      /* display: block; */
-      margin: .25em;
-    }
-  }
+  color: goldenrod;
+  /* font-size: 1.25rem; */
 
   .titre {
-    font-size: 3.5em;
+    font-size: 4em;
+    -webkit-text-stroke: 2px black;
+
     /* margin: .5em 0; */
     margin: 0;
   }
 
   .logo {
-    width: 600px;
+    width: 450px;
     /* margin: 2em 0; */
   }
 

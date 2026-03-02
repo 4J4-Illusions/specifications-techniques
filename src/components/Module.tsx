@@ -40,7 +40,7 @@ export default function Module(props: IModuleProgrammable) {
 
 
     return (
-        <table className='Module parag'>
+        <table className='Module parag-type'>
             <thead>
                 <tr className="row-nom">
                     <th>Module</th>

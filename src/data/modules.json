@@ -575,37 +575,30 @@
       "Juba"
     ],
     "sousModules": [
-      "Structure des scènes"
+      "Création du terrain avec Unity Terrain tool",
+      "Niveau 1",
+      "Niveau 2",
+      "Niveau 3"
     ],
     "description": [
+      [],
       [
-        {
-          "main": "Niveau 1 - Peur de la foule (Ochlophobie)",
-          "subMod": [
-            "Univers : Le personnage se voit transporté dans un espace désertique dans lequel se trouve un bazar, il y'a plusieurs bâtiments arrangés en forme circulaire avec plusieurs kiosques",
-            "Objectifs : Le joueur doit trouver 5 pièces de papier qui lui donnerons des indices dans le but de trouver une personne spécifique. Le niveau termine lorsque le joueur trouve la personne en question",
-            "Obstacles : Une foule empêche le personnage de se déplacer librement. Le fait d'être dans la foule trop longtemps fait augmenter la barre d'anxiété. Si cette barre d'anxiété est remplie, le niveau recommence",
-            "Récompense : À la fin du niveau le joueur se verra donner un briquet pour compléter le prochain niveau"
-          ]
-        },
-        {
-          "main": "Niveau 2 - Peur du noir (Nyctophobie)",
-          "subMod": [
-            "Univers : Le joueur se retrouve dans une forêt sombre. Plusieurs arbres sont présents pour lui bloquer son chemin et plusieurs chemins s'y retrouvent. La fôret est construite dans un style de labyrinthe",
-            "Objectifs : Dans cette forêt il existe 5 zones avec des lumières éteintes. Le joueur doit allumer ces 5 lumières dans un ordre précis dans le but d'atteindre la zone finale où ce dernier pourra allumer un certain arbre ce qui illumineras la forêt dans son entièreté. Pour se retrouver dans le noir le joueur pourra faire du bruit ce qui créera une onde autour de lui qui révèleras son entourage",
-            "Obstacles : Des monstres de la forêt seront présents et roderons. Si le joueur fait trop de bruit, les monstres seront attirés vers lui. Si ces monstres attaquent le joueur, ce dernier fera une crise d'angoisse et le niveau recommenceras",
-            "Récompense : À la fin du niveau le joueur reçoit une clé à molette ce qui l'aideras dans le niveau 3"
-          ]
-        },
-        {
-          "main": "Niveau 3 - Peur de devenir fou (Psycopathophobie)",
-          "subMod": [
-            "Univers : Le joueur se voit de retour dans le théâtre du début du jeu, cette fois-ci le théâtre entier est à la disposition du joueur",
-            "Objectifs : Le joueur doit survivre un temps imparti. Le joueur a la capacité de faire diminuer ce temps imparti en faisant des calibrations de caméras projecteurs de cinéma. Si ce dernier rate une calibration, le temps imparti augmente",
-            "Obstacles : L'antagoniste Alaric ayant pris une forme monstrueuse suit le joueur dans la carte et essaye d'attraper ce dernier. Avec ses pouvoirs de télékinésie, il fait voir et entendre au joueur des hallucinations",
-            "Récompense : Fin du jeu"
-          ]
-        }
+        "Bâtiments : Unity asset store ou modélisation sur Maya.",
+        "Kiosques : Unity asset store ou modélisation sur Maya.",
+        "Foule : Modélisation sur Maya.",
+        "Pièces de papier : Modélisation sur Maya ou Unity asset store.",
+        "Briquet : Modélisation sur Maya."
+      ],
+      [
+        "Arbres de la forêt : Unity asset store.",
+        "Monstres de la forêt : Modélisation sur Maya.",
+        "Lanternes : Modélisation sur Maya.",
+        "Clé à molette : Modélisation sur Maya."
+      ],
+      [
+        "Modélisation de l’univers : Asset store et modélisation sur Maya.",
+        "Alaric : Modélisation sur Maya.",
+        "Objets de calibration : Modélisation sur Maya."
       ]
     ]
   },

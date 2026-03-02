@@ -1,5 +1,6 @@
-/* :root {
-} */
+:root {
+  --main-color: #c1914f;
+}
 
 
 @font-face {
@@ -27,9 +28,10 @@
 }
 @font-face {
   font-family: "Playfair Display";
-  src: url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype") tech("variations");
-  src: url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype-variations");
-  src: url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype supports variations");
+  src: 
+    url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype") tech("variations"),
+    url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype-variations"),
+    url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype supports variations");
   font-weight: 100 900;
 }
 @font-face {
@@ -48,11 +50,19 @@
 
 html{
   scroll-behavior: smooth;
+
+  background-color: #121212;
+
+  color: white;
 }
 
 .titre {
   /* font-family: "Unfinished Scream", Papyrus, fantasy; */
   font-family: "Sancreek", Papyrus, fantasy;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: goldenrod;
 }
 
 .sous-titre {
@@ -62,7 +72,13 @@ html{
   word-spacing: 3px;
 }
 
-.parag {
+.parag-type {
   font-family: "JMH Typewriter", serif;
   /* font-family: "PT Serif", "Playfair Display", serif; */
+}
+.parag-pt {
+  font-family: "PT Serif", serif;
+}
+.parag-play {
+  font-family: "Playfair Display", serif;
 }
