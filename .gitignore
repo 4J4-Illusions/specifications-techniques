@@ -25,4 +25,5 @@ dist-ssr
 
 
 # Unnecessary files
-src/data/!*.json
+src/data/*
+!src/data/*.json

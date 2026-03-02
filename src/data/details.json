@@ -2,7 +2,12 @@
     {
         "id": "technique",
         "titre": "Description technique du jeu",
-        "contenu": ""
+        "contenu": "Le jeu est un jeu narratif 3D à la première personne, centré sur l’exploration, la tension psychologique et la symbolique des peurs intérieures. La progression est linéaire et scénarisée, structurée en actes correspondant à différentes phobies, et rythmée par des phases d’observation, d’infiltration légère, de résolution d’objectifs contextuels et de fuite. Le gameplay met volontairement de côté le combat pour privilégier la gestion du stress, la lecture de l’environnement, l’attention portée aux sons et aux signaux visuels, ainsi que la capacité du joueur à évoluer dans des situations inconfortables. Chaque épreuve impose une contrainte sensorielle ou psychologique différente (pression sociale, perte de repères, désorientation, hallucinations), afin de placer le joueur dans un état de vulnérabilité contrôlée. L’expérience vise avant tout à faire ressentir l’évolution émotionnelle du personnage, jusqu’à l’affrontement final avec sa peur la plus profonde, dans une logique de parcours introspectif plus que de performance."
+    },
+    {
+        "id": "synopsis",
+        "titre": "Synopsis",
+        "contenu": "Dans un monde où les chimères sont traquées et massacrées par les humains, Vyktor, un jeune homme prisonnier de ses propres peurs à la suite d'événements traumatiques passés, travaille comme superviseur de nuit dans un cirque où chacun porte un masque pour garder son identité secret. Chargé de la fermeture et du nettoyage des lieux, il s'endort accidentellement pendant son quart d'heure. Un bruit violent provenant des portes principales le réveille en sursaut. En allant inspecter les lieux, il découvre que les portes, qu'il .tait certain d'avoir verrouillées, sont désormais ouvertes. Alors que le cirque est censé être vide, des rires hystériques proviennent de la grande salle de spectacle. Sur la scène, se retrouvait un intrus mystérieux masqué avec une aura sinistre. Celui-ci l’oblige à jouer avec lui, sans réellement lui laisser un choix. Sans le savoir, chaque acte de ce jeu correspond à une peur profondément ancrée en lui. Pour survivre, il devra affronter ses traumatismes les plus sombres. Après avoir survécu aux différentes épreuves, Vyktor découvre la motivation de l'intrus ainsi que son origine. Cette interaction finale entre les deux personnages marque la fin de l’histoire."
     },
     {
         "id": "niveaux",
@@ -11,8 +16,7 @@
     },
     {
         "id": "organigramme",
-        "titre": "Organigramme des quêtes",
-        "contenu": ""
+        "titre": "Organigramme des quêtes"
     },
     {
         "id": "son",
@@ -26,7 +30,6 @@
     },
     {
         "id": "modules",
-        "titre": "Liste de modules programmables",
-        "contenu": ""
+        "titre": "Liste de modules programmables"
     }
 ]
