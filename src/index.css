@@ -3,15 +3,7 @@
 }
 
 
-@font-face {
-  font-family: "Unfinished Scream";
-  src: url("/fonts/unfinished_scream/WOFF/UnfinishedScreamRegular.woff")
-    format("woff");
-}
-@font-face {
-  font-family: "Punk Typewriter";
-  src: url("/fonts/punk_typewriter/Punk Typewriter.otf") format("opentype");
-}
+
 @font-face {
   font-family: "JMH Typewriter";
   src: url("/fonts/jmh_typewriter/JMH Typewriter.otf") format("opentype");
@@ -20,6 +12,7 @@
 @font-face {
   font-family: "Sancreek";
   src: url("/fonts/Sancreek/Sancreek-Regular.ttf") format("truetype");
+  font-weight: normal;
 }
 @font-face {
   font-family: "PT Serif";
@@ -34,19 +27,8 @@
     url("/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("truetype supports variations");
   font-weight: 100 900;
 }
-@font-face {
-  font-family: "Compacta";
-  src: url("/fonts/compacta/unicode.compacta.ttf") format("truetype");
-}
 
 
-/* *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
 html{
   scroll-behavior: smooth;
@@ -57,7 +39,6 @@ html{
 }
 
 .titre {
-  /* font-family: "Unfinished Scream", Papyrus, fantasy; */
   font-family: "Sancreek", Papyrus, fantasy;
 
   text-transform: uppercase;
@@ -66,15 +47,13 @@ html{
 }
 
 .sous-titre {
-  /* font-family: "Punk Typewriter", Georgia, serif; */
-  font-family: "Compacta", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 1px;
   word-spacing: 3px;
 }
 
 .parag-type {
   font-family: "JMH Typewriter", serif;
-  /* font-family: "PT Serif", "Playfair Display", serif; */
 }
 .parag-pt {
   font-family: "PT Serif", serif;
