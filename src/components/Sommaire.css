@@ -28,7 +28,7 @@
       "son lumieres modules"
       "son lumieres modules";
 
-    color: goldenrod;
+    color: var(--main-color);
     text-transform: uppercase;
 
     a {
@@ -48,7 +48,7 @@
     }
     a:hover{
       color: #4e0000;
-      background-color: goldenrod;
+      background-color: var(--main-color);
       border-color: white;
     }
   }

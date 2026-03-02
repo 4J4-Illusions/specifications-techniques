@@ -43,7 +43,7 @@ html{
 
   text-transform: uppercase;
   text-align: center;
-  color: goldenrod;
+  color: var(--main-color);
 }
 
 .sous-titre {

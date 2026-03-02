@@ -16,7 +16,7 @@
   gap: 5vh;
 
   text-align: center;
-  color: goldenrod;
+  color: var(--main-color);
   /* font-size: 1.25rem; */
 
   .titre {
