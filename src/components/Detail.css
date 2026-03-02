@@ -1,18 +1,16 @@
-.Detail{
-    h1{
-        border-bottom: 1px solid black;
-    }
+.Detail {
+  margin: 10vh 0;
 
-	div.organigramme{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 3em;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-        img{
-            border: 1px solid black;
-            border-radius: 50px;
-        }
-    }
+  div.organigramme {
+    display: grid;
+    grid-template:
+      "niv1 niv2" 525px
+      "niv1 niv3" 525px
+      / 40% 60%;
+    justify-items: center;
+    align-items: stretch;
+  }
 }

@@ -14,12 +14,12 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 115%;
-    height: 600px;
+    height: 900px;
   }
 
   div {
     padding: 2em;
-    padding-top: 13vw;
+    padding-top: 15vw;
     background-color: #4e0000;
     display: grid;
     grid-template-areas:
